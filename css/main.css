@@ -1,0 +1,140 @@
+@media (max-width: 772px) {
+  .product-box {
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    padding: 20px;
+  }
+  .product-box h1 {
+    width: 100%;
+  }
+  .product-box span {
+    display: inline;
+  }
+  .product-box .product-right-side {
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  .product-box .product-right-side button {
+    width: 100%;
+  }
+  .product-box .product-right-side .price-box {
+    padding-bottom: 15px;
+  }
+  .product-box .product-left-side img {
+    width: 100%;
+    content: url("../img/image-product-mobile.jpg");
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+  font-size: 14px;
+}
+
+span {
+  display: block;
+}
+
+.product-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: stretch;
+}
+
+.product-right-side {
+  width: 270px;
+  padding: 25px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+}
+
+.card-title {
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: hsl(228, 12%, 48%);
+}
+
+.card-text {
+  color: hsl(228, 12%, 48%);
+  line-height: 20px;
+}
+
+.price-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.new-price {
+  margin-right: 15px;
+  font-size: 32px;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+  font-size: 12px;
+  color: hsl(228, 12%, 48%);
+  text-decoration-line: line-through;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-footer img {
+  margin-right: 10px;
+  height: 14px;
+}
+.card-footer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 66px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 8px;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.card-footer button:hover {
+  background-color: hsl(158, 35%, 19%);
+}
+
+.product-photo {
+  width: 270px;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}/*# sourceMappingURL=main.css.map */
